@@ -5,9 +5,13 @@ Aprendiendo sobre manipulación del DOM
 Mira [Avocado Shop](https://edgardoavs.github.io/workshop1/) para conocer como funciona el proyecto.
 
 ### Instalación 🔧
-`git clone git@github.com:EdgardoAVS/workshop1.git`
+```
+git clone git@github.com:EdgardoAVS/workshop1.git
+```
 
-`npm start`
+```
+npm start
+```
 
 Runs the app in the development mode. Open http://localhost:8080 to view it in the browser.
 
@@ -21,7 +25,7 @@ Builds a static copy of your site to the build/ folder. Your app is ready to be 
 - HTML
 - CSS
 ## Contribuyendo 🖇️
-Cualquier contirbución al proyecto es bien recibida!
+¡Cualquier contirbución al proyecto es bien recibida!
 
 ## Autor ✒️
 Edgardo Vargas - [EdgardoAVS](https://github.com/EdgardoAVS)
