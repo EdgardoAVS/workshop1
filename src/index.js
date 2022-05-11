@@ -33,7 +33,7 @@ async function fetchData () {
     price.classList.add('text-gray-600')
 
     const container = document.createElement('div');
-    container.classList.add('md:flex', 'bg-white', 'rounded-lg', 'hover:bg-gray-300')
+    container.classList.add('md:flex', 'flex-col', 'items-center', 'bg-white', 'rounded-lg', 'hover:bg-gray-300')
 
     container.append(image, title, price);
 
@@ -41,6 +41,6 @@ async function fetchData () {
 
   });
   appNode.append(...allItems);
-  appNode.classList.add('grid', 'grid-cols-2', 'gap-2', 'mt-10')
+  appNode.classList.add('grid', 'grid-cols-2', 'gap-6', 'mt-10')
 }
 fetchData();
